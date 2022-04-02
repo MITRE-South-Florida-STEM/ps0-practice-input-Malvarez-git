@@ -1,13 +1,13 @@
 # please use the code below to run your code
 
 # replace the following line to prompt user for first number
-print('first question')
+x = int(input("Please enter the first number."))
 
 # replace the following line to prompt user for second number
-print('second question')
+y = int(input("Please enter the second number"))
 
 # replace the following line to compute exponent
-print('compute something')
+z = int(x**y)
 
 # replace the following line to print solution
-print('print solution')
+print(str(x) + " raised to the " + str(y) + " is " + str(z))
